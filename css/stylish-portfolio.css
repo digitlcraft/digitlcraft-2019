@@ -132,7 +132,7 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background: #44504F;
+  background: #343a40;
   border-left: 1px solid rgba(0, 0, 0, 0.5);
 }
 
@@ -152,10 +152,17 @@ h6 {
   padding: 15px;
 }
 
+.details {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+}
+
 .sidebar-nav li a:hover {
   text-decoration: none;
   color: #fff;
-  background: rgba(255, 255, 255, 0.2);
+  background: #495057;
 }
 
 .sidebar-nav li a:active,
@@ -207,7 +214,7 @@ h6 {
 }
 
 .menu-toggle:hover {
-  background: #343a40;
+  background: #495057;
 }
 
 .service-icon {
