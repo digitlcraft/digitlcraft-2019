@@ -121,6 +121,37 @@ h6 {
   }
 }
 
+.masthead-sub {
+  min-height: 15rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead-sub-digi.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead-sub-digi.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #343a40;
+}
+
+.masthead-sub h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .masthead-sub {
+    height: 40vh;
+  }
+  .masthead-sub h1 {
+    font-size: 5.5rem;
+  }
+}
+
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;

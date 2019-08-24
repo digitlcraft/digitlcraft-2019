@@ -24,6 +24,9 @@
 
   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 
+    <!-- Lightbo CSS -->
+    <link href="css/lightbox.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
@@ -38,7 +41,7 @@
         <a class="js-scroll-trigger" href="#page-top">Digitlcraft</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#page-top">Home</a>
+        <a class="js-scroll-trigger" href="index.html">Home</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#about">About</a>
@@ -54,96 +57,22 @@
   </nav>
 
   <!-- Header -->
-  <header class="masthead d-flex">
+  <header class="masthead-sub d-flex">
     <div class="container text-center my-auto">
       <h1 class="mb-1">Digitlcraft</h1>
       <h4 class="mb-5">
-        <p>Design kept simple.</p>
-      </h4>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-    </div>
+          <p>Full works</p>
+        </h4>
     <div class="overlay"></div>
   </header>
 
-  <!-- About -->
-  <section class="content-section bg-light" id="about">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h2>Design solutions, without the fuss.</h2>
-          <p class="lead mb-5">Whether you're building an app or looking to power-up your marketing material.</p>
-          <a class="btn btn-primary btn-xl" href="#Digitl">About Digitlcraft</a>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Services -->
-  <!-- <section class="content-section bg-primary text-white text-center" id="services">
-    <div class="container">
-      <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">Services</h3>
-        <h2 class="mb-5">What We Offer</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
-          </span>
-          <h4>
-            <strong>Responsive</strong>
-          </h4>
-          <p class="text-faded mb-0">Looks great on any screen size!</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-pencil"></i>
-          </span>
-          <h4>
-            <strong>Redesigned</strong>
-          </h4>
-          <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-like"></i>
-          </span>
-          <h4>
-            <strong>Favorited</strong>
-          </h4>
-          <p class="text-faded mb-0">Millions of users
-            <i class="fas fa-heart"></i>
-            Start Bootstrap!</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
-          </span>
-          <h4>
-            <strong>Question</strong>
-          </h4>
-          <p class="text-faded mb-0">I mustache you a question...</p>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- Callout
-  <section class="callout">
-    <div class="container text-center">
-      <h2 class="mx-auto mb-5">Welcome to
-        <em>your</em>
-        next website!</h2>
-      <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
-    </div>
-  </section> -->
-
-  <!-- Portfolio -->
-  <section class="content-section" id="portfolio">
+  <!-- Portfolio Print -->
+  <section class="content-section-small bg-light" id="about">
     <div class="container">
       <div class="content-section-heading text-center">
-        <h3 class="text-primary mb-0">A quick glance</h3>
-        <h2 class="mb-5">Recent Projects</h2>
+        <h2>Print</h2>
+        <p class="lead mb-5">All the things with a printed output.</p>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6">
@@ -154,8 +83,9 @@
                 <p class="mb-0">Milestone staff swag</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-          </a>
+            <a class="portfolio-item" href="img/portfolio-1.jpg" data-lightbox="t-shirt-set" data-title="Click the right half of the image to move forward.">  
+              <img class="img-fluid" src="img/portfolio-1.jpg" alt=""></a>
+            </a>
         </div>
         <div class="col-lg-6">
           <a class="portfolio-item" href="#">
@@ -198,7 +128,7 @@
                 <p class="mb-0">User journey through content</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/portfolio-5.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
           </a>
         </div>
         <div class="col-lg-6">
@@ -209,47 +139,98 @@
                 <p class="mb-0">Experimental content project</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/portfolio-6.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
           </a>
         </div>
       </div>
     </div>
-    <section class="content-section-small text-white">
-      <div class="container text-center">
-        <a href="#" class="btn btn-xl btn-dark mr-4">Full works</a>
-      </div>
-    </section>
   </div>
   </section>
 
-   <!-- About Digitlcraft modal -->
-  <div id="Digitl" class="modal-window">
-    <div>
-      <a href="#close" title="Close" class="modal-close">Close</a>
-      <h2 class="mb-4">About Digitlcraft</h2>
-      <div class="mb-3">With over 10 years experience in the <span="font-weight-bold">Print and Digital industry</span>, Andy Warboys can successfully turn your ideas into physical or digital solutions.</div>
-      <div>Skill sets ranging from logo & identity creation, to branded apparel, website design through to assisting the build.</div>
-      <img class="img-fluid" src="img/session.jpg" alt="">
+  <!-- Portfolio Concept -->
+  <section class="content-section-small" id="about">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h2>Concept</h2>
+          <p class="lead mb-5">Projects with a goal of exploration.</p>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Branded apparel</h2>
+                  <p class="mb-0">Milestone staff swag</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-blank.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Business event brochure</h2>
+                  <p class="mb-0">Conference agenda</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-blank.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Marketing campaign</h2>
+                  <p class="mb-0">Not like ordinary homeloans</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-blank.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Education Industry Infographic</h2>
+                  <p class="mb-0">Showcasing the spaces of future careers</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-blank.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Web interface</h2>
+                  <p class="mb-0">User journey through content</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-blank.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Editorial layout</h2>
+                  <p class="mb-0">Experimental content project</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-blank.jpg" alt="">
+            </a>
+          </div>
+        </div>
       </div>
-  </div>
-
-  <!-- Call to Action
-  <section class="content-section bg-primary text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-      <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-      <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
+      <section class="content-section-small text-white">
+        <div class="container text-center">
+          <a href="#" class="btn btn-xl btn-dark mr-4">Full works</a>
+        </div>
+      </section>
     </div>
-  </section> -->
+    </section>
 
-  <!-- Map -->
-  <!--<section id="contact" class="map">
-    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-    <br />
-    <small>
-      <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-    </small>
-  </section> -->
 
   <!-- Footer -->
   <footer class="footer text-center">
@@ -290,6 +271,9 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
+
+  <!-- Lightbox JS -->
+  <script src="js/lightbox.js"></script>
 
 </body>
 
