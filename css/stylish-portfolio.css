@@ -145,11 +145,16 @@ h6 {
 
 @media (min-width: 992px) {
   .masthead-sub {
-    height: 40vh;
+    height: 50vh;
   }
   .masthead-sub h1 {
     font-size: 5.5rem;
   }
+}
+
+.masthead-logo {
+  width: 350px;
+  margin: auto auto;
 }
 
 /* Side Menu */
