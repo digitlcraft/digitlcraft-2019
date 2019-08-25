@@ -157,6 +157,12 @@ h6 {
   margin: auto auto;
 }
 
+@media (max-width: 500px) {
+  .masthead-logo {
+    width: 200px;
+  }
+}
+
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;
@@ -348,6 +354,55 @@ h6 {
     background-color: rgba(68, 80, 79, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
+  }
+}
+
+.portfolio-item-home {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 530px;
+  margin: auto auto 1rem;
+}
+
+.portfolio-item-home .caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.portfolio-item-home .caption .caption-content {
+  color: #fff;
+  margin: auto 2rem 2rem;
+}
+
+.portfolio-item-home .caption .caption-content h2 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 5px #181414;
+}
+
+.portfolio-item-home .caption .caption-content p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-shadow: 0px 0px 5px #181414;
+}
+
+@media (min-width: 992px) {
+  .portfolio-item-home {
+    max-width: none;
+    margin: 0;
+  }
+  .portfolio-item-home .caption .caption-content {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
   }
 }
 
